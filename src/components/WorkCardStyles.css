@@ -42,10 +42,9 @@
     padding: 0.5rem 1rem;
 }
 
-@media screen and(max-width: 740px) {
+@media (max-width: 640px) {
     .project-container{
-        max-width: 1140px;
-        margin: auto;
-        grid-template-columns: 1fr;
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr );
     }
 }
